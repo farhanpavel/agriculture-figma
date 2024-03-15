@@ -6,16 +6,19 @@ export default function page() {
   return (
     <div >
       <div>
-      <div className="bg-[url('/images/Hero.png')] bg-no-repeat bg-cover h-[150vh]    md:h-screen">
-        <div className='text-white border-b-[1px] border-white'>
+      <div className="bg-[url('/images/Hero.png')] bg-no-repeat bg-cover h-[150vh] md:h-[170vh]   lg:h-screen">
+        <div className='border-b-[1px] border-white text-white'>
         <Header />
         </div>
         <div className=' grid place-content-center items-center -mt-36 md:-mt-16 h-full'>
             <div className='text-4xl'>
-            <h1 className='text-white text-center font-manrope font-semibold'>Natural Products<br/>
-            For Lovers of <span className="text-yellow-400  bg-[url('/images/underline.png')]" >Healthy</span><br/>
+              <div className=''>
+              <h1 className='text-white p-2 text-center font-manrope  bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-orange-500 font-bold'>Natural Products<br/>
+            For Lovers of <span className="bg-[url('/images/underline.png')]" >Healthy</span><br/>
             Organic Food 
             </h1>
+              </div>
+            
             </div>
             <div className='text-md m-auto mt-5 '>
             <button className='py-2 px-2 text-white rounded-md bg-green-600 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300'>Discover Here</button>
