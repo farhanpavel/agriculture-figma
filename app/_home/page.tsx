@@ -6,14 +6,14 @@ export default function page() {
   return (
     <div >
       <div>
-      <div className="bg-[url('/images/Hero.png')] bg-no-repeat bg-cover h-[150vh] md:h-[170vh]   lg:h-screen">
-        <div className='border-b-[1px] border-white text-white'>
-        <Header />
+      <div className='border-b-[1px] shadow-xl'>
+        <Header/>
         </div>
+   <div className="bg-[url('/images/Hero.png')] bg-no-repeat bg-cover h-[140vh] lg:mt-14 md:mt-14 mt-36  md:h-[170vh]   lg:h-screen">
         <div className=' grid place-content-center items-center -mt-36 md:-mt-16 h-full'>
             <div className='text-4xl'>
-              <div className=''>
-              <h1 className='text-white p-2 text-center font-manrope  bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-orange-500 font-bold'>Natural Products<br/>
+              <div >
+              <h1 className=' p-2 text-center font-manrope  bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-orange-500 font-bold '>Natural Products<br/>
             For Lovers of <span className="bg-[url('/images/underline.png')]" >Healthy</span><br/>
             Organic Food 
             </h1>
