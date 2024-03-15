@@ -51,11 +51,11 @@ export default function footer() {
                 </div>
                <div className='flex flex-wrap md:items-center flex-row gap-x-1 '> {/* Responsive class */}
             <MdMessage /> {/* Moved icon out of the <p> tag */}
-            <p>Lorem ipsum dolor sit amet consec?</p>
+            <p>Lorem ipsum dolo</p>
         </div>
         <div className='flex flex-wrap md:items-center flex-row gap-x-1'> {/* Responsive class */}
             <FaLocationDot /> {/* Moved icon out of the <p> tag */}
-            <p>Lorem ipsum dolor, sit amet conse.</p>
+            <p>Lorem ipsum dolor.</p>
         </div>
                 </div>
                

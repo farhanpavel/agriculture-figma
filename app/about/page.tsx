@@ -24,7 +24,7 @@ export default function page() {
                 Market</h1>
                 <p className='text-green-600 font-semibold'>There are many variations of passa of lorem available, but
                 the majority have suffered alteration.</p>
-                <p className='text-gray-500 mt-3'>There are many variations of passages of lorem ipsum available but the
+                <p className=' mt-3'>There are many variations of passages of lorem ipsum available but the
                 majority have suffered alteration in some form by injected humor or
                 random word which don’t look even.</p>
                 <ul className='list-disc list-inside mt-2'>
